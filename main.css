@@ -1,5 +1,42 @@
 *{
-    margin: 0px;
     padding: 0px;
-    background: red;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 500px;
+    /* max-width: 200px; */
+    height: 500px;
+    background: rgb(81, 255, 0);
+    background-image: url('https://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c325.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* padding: 50px 20px;
+    margin: 100px 50px; */
+}
+
+.box2{
+    box-sizing: border-box;
+    width: 200px;
+    /* min-width: 50px; */
+    height: 200px;
+    background: blue;
+    /* border-left: 5px solid red;
+    border-right: 10px dashed white; */
+    border: 10px solid red;
+
+    padding: 30px;
+}
+.box3{
+    box-sizing: content-box;
+    width: 200px;
+    padding: 30px;
+
+    /* min-width: 50px; */
+    height: 200px;
+    background: rgb(247, 0, 255);
+    /* border-left: 5px solid red;
+    border-right: 10px dashed white; */
+    border: 10px solid red;
 }
