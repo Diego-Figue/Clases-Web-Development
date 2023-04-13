@@ -427,3 +427,28 @@ img{
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     transition: 1s ease-in-out;
 }
+
+/* clase 9 */
+
+.clase{
+    width: 100%;
+    height: 100vh;
+}
+
+.cuadrado{
+    width: 200px;
+    height: 200px;
+    background: red;
+    transition: 1s ease-in-out;
+
+}
+
+.dark{
+    background: #000;
+    border-radius: 50%;
+    transition: 1s ease-in-out;
+    margin: 30px;
+}
+.green{
+    background: green;
+}
